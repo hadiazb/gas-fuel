@@ -1,0 +1,35 @@
+@import '../../styles/Variables.scss';
+
+.header {
+	height: 455px;
+	overflow: hidden;
+	background-color: $primary-color;
+
+	& .nav {
+		height: 80px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		&__img {
+			width: 50px;
+		}
+
+		&__list {
+			width: 250px;
+			height: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			& .item {
+				&__title {
+					font-size: 1em;
+					font-weight: 400;
+					color: white;
+				}
+			}
+		}
+	}
+}
